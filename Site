@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canal VOCE | Michel Paizak</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    header {
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 40px 20px;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    header p {
+        margin: 10px 0 0 0;
+        font-size: 1.2em;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+    }
+    nav a {
+        color: #fff;
+        padding: 15px 25px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    nav a:hover {
+        background-color: #555;
+    }
+    section {
+        max-width: 1000px;
+        margin: auto;
+        padding: 50px 20px;
+    }
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .portfolio img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    ul.services {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul.services li {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .contact-form {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .contact-form input, .contact-form textarea, .contact-form button {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1em;
+    }
+    .contact-form button {
+        background-color: #222;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .contact-form button:hover {
+        background-color: #555;
+    }
+    footer {
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Canal VOCE | Michel Paizak</h1>
+    <p>Designer Profissional | Certificado e Premiado</p>
+</header>
+
+<nav>
+    <a href="#about">Sobre</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#services">Serviços</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="about">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Meu nome é Michel Paizak e sou formado em <strong>Design Gráfico</strong>. Possuo certificados como <strong>Adobe Certified Expert (ACE)</strong> e fui premiado com o <strong>National Design Excellence Award</strong> e o <strong>Top Creative Designer 2024</strong>. Transformo ideias em <strong>designs criativos e originais</strong> para web, redes sociais, branding e materiais impressos. Meu objetivo é ajudar você a ter resultados profissionais com qualidade e inovação.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+        <img src="https://via.placeholder.com/400x300" alt="Projeto 1 - Branding Startup XYZ">
+        <img src="https://via.placeholder.com/400x300" alt="Projeto 2 - Cartaz Festival de Música">
+        <img src="https://via.placeholder.com/400x300" alt="Projeto 3 - Post Instagram">
+        <img src="https://via.placeholder.com/400x300" alt="Projeto 4 - Layout App Mobile">
+    </div>
+</section>
+
+<section id="services">
+    <h2>Serviços</h2>
+    <ul class="services">
+        <li><strong>Design Gráfico:</strong> Criação de logos, banners, posts e materiais digitais</li>
+        <li><strong>Branding e Identidade Visual:</strong> Desenvolvimento de marca do zero</li>
+        <li><strong>Materiais Impressos:</strong> Cartazes, flyers, cartões e mais</li>
+        <li><strong>UX/UI Design:</strong> Layout de sites e aplicativos</li>
+        <li><strong>Consultoria Criativa:</strong> Orientação para comunicação visual e marketing</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato para solicitar orçamento ou tirar dúvidas. Respondo em até 24 horas.</p>
+    <div class="contact-form">
+        <form>
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" rows="6" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Michel Paizak | Canal VOCE | Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
